@@ -7,7 +7,7 @@ const Home = () => {
       justify-between items-center gap-16'
     >
       <div className='ml-6 grow'>
-        <div className='border-b pb-8'>
+        <div className='border-b border-green-20 pb-8'>
           <p className='font-bold text-8xl'>
             BROWNIE
             <br />
@@ -26,9 +26,11 @@ const Home = () => {
             <Button>How to</Button>
             <Button>Baking</Button>
           </div>
-          <p>12 min read</p>
+          <p className='text-green-20'>12 min read</p>
         </div>
-        <button className='bg-green-40 text-green-10 px-5 py-2 rounded-full'>READ NOW</button>
+        <button className='bg-green-40 text-green-20 px-5 py-2 rounded-full'>
+          READ NOW
+        </button>
       </div>
       <img
         src='assets/images/pizza.jpg'
